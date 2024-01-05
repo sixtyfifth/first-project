@@ -1,3 +1,3 @@
-# first-project
-проект "оно тебе надо"
-https://github.com/sixtyfifth/first-project.git
+# ono-tebe-nado
+Проект "Оно тебе надо"
+https://github.com/sixtyfifth/ono-tebe-nado
