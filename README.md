@@ -1,3 +1,3 @@
-# ono-tebe-nado-1
+# ono-tebe-nado
 Проект "Оно тебе надо"
-https://github.com/sixtyfifth/ono-tebe-nado-1
+https://github.com/sixtyfifth/first-project
