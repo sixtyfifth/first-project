@@ -26,6 +26,7 @@
 
 .header__menu {
   margin-right: 215px;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__menu-item_active .header__link {
@@ -67,6 +68,7 @@ address {
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .overlay {
@@ -94,19 +96,11 @@ address {
   padding: 165px 50px 20px 50px;
 }
 
-.letter-spacing-extended span:nth-child(2) {
-  letter-spacing: 60px;
-}
-
 .aligned-text_center {
   text-align: center;
   line-height: 100%;
   letter-spacing: 30px;
   padding: 0 80px 20px 50px;
-}
-
-.letter-spacing-extended-center span:nth-child(3) {
-  letter-spacing: 60px;
 }
 
 .aligned-text_right {
@@ -116,7 +110,7 @@ address {
   padding: 0px 20px 0 50px;
 }
 
-.letter-spacing-extended-right span:nth-child(1) {
+.span_text{
   letter-spacing: 60px;
 }
 
@@ -148,6 +142,7 @@ address {
   background-color: transparent;
   border: 1px solid #fff;
   margin-left: 75px;
+  font-family: Raleway;
 }
 
 .lots {
@@ -162,7 +157,7 @@ address {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 0 1170px 27px 40px;
+  padding: 0 0 27px 40px;
 }
 
 .lots__card-list {
@@ -193,6 +188,7 @@ address {
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .card__title {
@@ -258,7 +254,7 @@ address {
   height: 240px;
   background-color: #000;
   margin: 0 95px;
-  border-radius: 120px;
+  border-radius: 50%;
 }
 
 .about__logo-image {
@@ -287,11 +283,17 @@ address {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 885px;
+  width:100%;
+  width: max-width;
 }
 
 p {
   margin-top: 23px;
+}
+
+p:last-child{
+  margin-top: 23px;
+  margin-right: 0px;
 }
 
 footer {
@@ -301,7 +303,8 @@ footer {
   align-items: start;
   width: 1440px;
   justify-content: space-between;
-  padding: 185px 50px 0 50px;
+  padding: 185px 50px 88px 50px;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .footer__menu-list {
@@ -311,13 +314,11 @@ footer {
 .footer__social-list {
   display: flex;
   list-style: none;
-  width: 240px;
   align-self: start;
   gap: 50px;
 }
 
 .footer__menu {
-  width: 149px;
   color: #000;
   text-align: center;
   font-size: 18px;
