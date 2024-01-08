@@ -60,9 +60,6 @@ address {
   margin-left: auto;
 }
 
-.header__address {
-  margin-top: 0;
-}
 
 .cover {
   background-image: url(../images/cover.jpg);
@@ -306,7 +303,9 @@ footer {
   padding: 185px 50px 88px 50px;
   grid-template-columns: 1fr min-content 1fr;
 }
-
+.footer__links-list-item{
+  width: 150px;
+}
 .footer__menu-list {
   list-style: none;
 }
