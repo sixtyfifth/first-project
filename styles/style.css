@@ -60,7 +60,6 @@ address {
   margin-left: auto;
 }
 
-
 .cover {
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -181,10 +180,12 @@ address {
   background-repeat: no-repeat;
   height: 100%;
 }
+.card_general {
+  background-size: cover;
+}
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
   background-position: center;
 }
 
@@ -213,12 +214,10 @@ address {
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
 }
 
 .lots__look {
@@ -327,5 +326,5 @@ footer {
 }
 
 .footer__social-icon {
-  height: 55px;
+  height: 48px;
 }
