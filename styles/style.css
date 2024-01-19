@@ -26,7 +26,7 @@
   
   .header__menu {
     display: grid;
-    grid-template-columns: 2fr min-content 1fr;
+    grid-template-columns: 11fr 3fr 3fr;
   }
   
   .header__menu-item_active .header__link {
@@ -70,6 +70,8 @@
   
   .overlay {
     position: absolute;
+    top: 0;
+    left: 0;
     width:100%;
     height:100%;
     background: rgba(0, 0, 0, 0.6);
@@ -124,6 +126,7 @@
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 18px;
+    display:inline;
   }
   
   .cover__description {
@@ -188,6 +191,7 @@
     flex-wrap: wrap;
     background-repeat: no-repeat;
     height: 100%;
+    background-position: center;
   }
   .card_general {
     background-size: cover;
@@ -195,7 +199,6 @@
   
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-position: center;
   }
   
   .card__title {
@@ -297,7 +300,11 @@
   p {
     margin-top: 23px;
   }
-  
+
+  p:first-child{
+    margin-top: 0px;
+  }
+
   p:last-child{
     margin-top: 23px;
     margin-right: 0px;
@@ -308,11 +315,11 @@
     justify-items: center;
     align-items: start;
     width: 1440px;
-    padding: 185px 50px 88px 50px;
+    padding: 185px 30px 88px 30px;
     grid-template-columns: 1fr 3fr 1fr;
   }
   .footer__links-list-item{
-    width: 150px;
+    width: 100;
   }
   .footer__menu-list {
     list-style: none;
